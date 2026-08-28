@@ -8,3 +8,7 @@ vim.opt.expandtab = true
 
 -- Use system keyboard
 vim.opt.clipboard = "unnamedplus"
+
+-- Enable line numbers
+vim.opt.number = true
+vim.opt.statuscolumn = "%s %l  " -- widen the line number column
