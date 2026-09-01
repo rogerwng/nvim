@@ -12,3 +12,7 @@ vim.opt.clipboard = "unnamedplus"
 -- Enable line numbers
 vim.opt.number = true
 vim.opt.statuscolumn = "%s %l  " -- widen the line number column
+
+-- VSCode style keybinds to scroll up and down
+vim.keymap.set("n", "H", "Hkk", { noremap = true })
+vim.keymap.set("n", "L", "Ljj", { noremap = true })
